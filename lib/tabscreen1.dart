@@ -28,6 +28,132 @@ class _TabScreen1State extends State<TabScreen1> {
       debugShowCheckedModeBanner: false,
       title: 'GOMALAYSIA',
       home: Scaffold(
+        drawer: Drawer(
+          child: ListView(
+            children: <Widget>[
+              ListTile(
+                title: Text("Home Page"),
+                trailing: Icon(Icons.arrow_forward),
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(
+                    builder: (BuildContext context) => TabScreen1()));
+                },
+              ),
+              ListTile(
+                title: Text("Kuala Lumpur"),
+                trailing: Icon(Icons.arrow_forward),
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(
+                    builder: (BuildContext context) => KL()));
+                },
+              ),
+              ListTile(
+                title: Text("Kelantan"),
+                trailing: Icon(Icons.arrow_forward),
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(
+                    builder: (BuildContext context) => KELANTAN()));
+                },
+              ),
+              ListTile(
+                title: Text("Penang"),
+                trailing: Icon(Icons.arrow_forward),
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(
+                    builder: (BuildContext context) => PENANG()));
+                },
+              ),
+              ListTile(
+                title: Text("Negeri Sembilan"),
+                trailing: Icon(Icons.arrow_forward),
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(
+                    builder: (BuildContext context) => NEGERI9()));
+                },
+              ),
+              ListTile(
+                title: Text("Terengganu"),
+                trailing: Icon(Icons.arrow_forward),
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(
+                    builder: (BuildContext context) => TERENGGANU()));
+                },
+              ),
+              ListTile(
+                title: Text("Perak"),
+                trailing: Icon(Icons.arrow_forward),
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(
+                    builder: (BuildContext context) => PERAK()));
+                },
+              ),
+              ListTile(
+                title: Text("Pahang"),
+                trailing: Icon(Icons.arrow_forward),
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(
+                    builder: (BuildContext context) => PAHANG()));
+                },
+              ),
+              ListTile(
+                title: Text("Melaka"),
+                trailing: Icon(Icons.arrow_forward),
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(
+                    builder: (BuildContext context) => MELAKA()));
+                },
+              ),
+              ListTile(
+                title: Text("Johor"),
+                trailing: Icon(Icons.arrow_forward),
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(
+                    builder: (BuildContext context) => JOHOR()));
+                },
+              ),
+              ListTile(
+                title: Text("Sabah"),
+                trailing: Icon(Icons.arrow_forward),
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(
+                    builder: (BuildContext context) => SABAH()));
+                },
+              ),
+              ListTile(
+                title: Text("Sarawak"),
+                trailing: Icon(Icons.arrow_forward),
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(
+                    builder: (BuildContext context) => SARAWAK()));
+                },
+              ),
+              ListTile(
+                title: Text("Kedah"),
+                trailing: Icon(Icons.arrow_forward),
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(
+                    builder: (BuildContext context) => KEDAH()));
+                },
+              ),
+              ListTile(
+                title: Text("Perlis"),
+                trailing: Icon(Icons.arrow_forward),
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(
+                    builder: (BuildContext context) => PERLIS()));
+                },
+              ),
+              ListTile(
+                title: Text("Selangor"),
+                trailing: Icon(Icons.arrow_forward),
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(
+                    builder: (BuildContext context) => SELANGOR()));
+                },
+              ),
+            ],
+          )
+        ),
           body: new CustomScrollView(
         slivers: <Widget>[
           new SliverAppBar(
@@ -146,7 +272,7 @@ class _TabScreen1State extends State<TabScreen1> {
               ),
             ),
             SizedBox(
-              height: 20,
+              height: 15,
             ),
             Card(
               borderOnForeground: true,
@@ -178,7 +304,7 @@ class _TabScreen1State extends State<TabScreen1> {
     return Column(
       children: <Widget>[
         SizedBox(
-          height: 50,
+          height: 15,
         ),
         GestureDetector(
           onTap: () {
@@ -205,7 +331,7 @@ class _TabScreen1State extends State<TabScreen1> {
     return Column(
       children: <Widget>[
         SizedBox(
-          height: 50,
+          height: 15,
         ),
         GestureDetector(
           onTap: () {
@@ -232,7 +358,7 @@ class _TabScreen1State extends State<TabScreen1> {
     return Column(
       children: <Widget>[
         SizedBox(
-          height: 50,
+          height: 15,
         ),
         GestureDetector(
           onTap: () {
@@ -259,7 +385,7 @@ class _TabScreen1State extends State<TabScreen1> {
     return Column(
       children: <Widget>[
         SizedBox(
-          height: 50,
+          height: 15,
         ),
         GestureDetector(
           onTap: () {
@@ -286,7 +412,7 @@ class _TabScreen1State extends State<TabScreen1> {
     return Column(
       children: <Widget>[
         SizedBox(
-          height: 50,
+          height: 15,
         ),
         GestureDetector(
           onTap: () {
@@ -313,7 +439,7 @@ class _TabScreen1State extends State<TabScreen1> {
     return Column(
       children: <Widget>[
         SizedBox(
-          height: 50,
+          height: 15,
         ),
         GestureDetector(
           onTap: () {
@@ -340,7 +466,7 @@ class _TabScreen1State extends State<TabScreen1> {
     return Column(
       children: <Widget>[
         SizedBox(
-          height: 50,
+          height: 15,
         ),
         GestureDetector(
           onTap: () {
@@ -367,7 +493,7 @@ class _TabScreen1State extends State<TabScreen1> {
     return Column(
       children: <Widget>[
         SizedBox(
-          height: 50,
+          height: 15,
         ),
         GestureDetector(
           onTap: () {
@@ -394,7 +520,7 @@ class _TabScreen1State extends State<TabScreen1> {
     return Column(
       children: <Widget>[
         SizedBox(
-          height: 50,
+          height: 15,
         ),
         GestureDetector(
           onTap: () {
@@ -421,7 +547,7 @@ class _TabScreen1State extends State<TabScreen1> {
     return Column(
       children: <Widget>[
         SizedBox(
-          height: 50,
+          height: 15,
         ),
         GestureDetector(
           onTap: () {
@@ -448,7 +574,7 @@ class _TabScreen1State extends State<TabScreen1> {
     return Column(
       children: <Widget>[
         SizedBox(
-          height: 50,
+          height: 15,
         ),
         GestureDetector(
           onTap: () {
@@ -475,7 +601,7 @@ class _TabScreen1State extends State<TabScreen1> {
     return Column(
       children: <Widget>[
         SizedBox(
-          height: 50,
+          height: 15,
         ),
         GestureDetector(
             onTap: () {
@@ -501,7 +627,7 @@ class _TabScreen1State extends State<TabScreen1> {
     return Column(
       children: <Widget>[
         SizedBox(
-          height: 50,
+          height: 15,
         ),
         GestureDetector(
             onTap: () {
@@ -520,7 +646,7 @@ class _TabScreen1State extends State<TabScreen1> {
               width: 375,
             )),
         SizedBox(
-          height: 40,
+          height: 15,
         ),
         Container(
           height: 100,
